@@ -56,3 +56,46 @@ button:hover{
 
 /* navbar and here */
 
+#hero{
+    width: 100%;
+    height: 100vh;
+    font-size: 18px;
+    background:linear-gradient(rgba(0,0,0,0.445), rgba(0,0,0,0.411)), 
+    url('https://images.unsplash.com/photo-1542359649-31e03cd4d909?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YWR2ZW50dXJlfGVufDB8fDB8fHww') no-repeat center / cover;
+    color: whitesmoke;
+}
+
+.contaner{
+    width: 90%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contaner .info h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.contaner .info h2{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.contaner .info p{
+    font-size: 1.2rem;
+    max-width: 60%;
+    /* margin-bottom: 2rem; */
+}
+
+.contaner .info a{
+    background: white;
+    font-size: 1.2rem;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 0.5em 2em;
+    margin-top: 2rem;
+}
