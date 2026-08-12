@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    padding: 20px;
+    height: 70px;
+    background: teal;
+    display: flex;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h4{
+    font-weight: 600;
+    font-size: 150%;
+}
+
+ul li{
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+li a{
+    color: whitesmoke;
+}
+
+li a:hover{
+    color: antiquewhite;
+}
+
+button{
+    border: none;
+    border-radius: 3px;
+    padding: 3px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    background: white;
+}
+
+button:hover{
+    background: whitesmoke;
+}
+
+/* navbar and here */
+
